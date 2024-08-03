@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const Navbar = () => {
 	return (
 		<nav
@@ -14,20 +12,10 @@ const Navbar = () => {
 					<span className="text-2xl font-bold">آرتا اکسپورت</span>
 				</div>
 				<ul className="flex gap-5">
-					<li>
-						<Link className="bg-primary text-back2" href="/">
-							صفحه اصلی
-						</Link>
-					</li>
-					<li>
-						<Link href="/">مقالات</Link>
-					</li>
-					<li>
-						<Link href="/">درباره ما</Link>
-					</li>
-					<li>
-						<Link href="/">تماس با ما</Link>
-					</li>
+					<li>صفحه اصلی</li>
+					<li>مقالات</li>
+					<li>درباره ما</li>
+					<li>تماس با ما</li>
 				</ul>
 			</div>
 			<button className="py-2 px-6 rounded-md bg-success1 text-success2">
