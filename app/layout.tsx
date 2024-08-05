@@ -22,7 +22,9 @@ export default function RootLayout({
 				<div className="w-full font-main bg-back1 text-primary ">
 					<div className="min-h-screen">
 						<Navbar />
-						<div className="w-full pt-10 px-5 md:px-[20%]">{children}</div>
+						<div className="w-full pt-10 px-5 md:px-[5%] lg:px-[12%] ">
+							{children}
+						</div>
 					</div>
 					<Footer />
 				</div>
