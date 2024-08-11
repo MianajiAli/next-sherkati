@@ -31,9 +31,11 @@ const Navbar = () => {
 					</li>
 				</ul>
 			</div>
-			<button className="py-2 px-6 rounded-md bg-success1 text-success2">
-				خرید محصول
-			</button>
+			<Link href="tel:+9809120216884">
+				<button className="py-2 px-6 rounded-md bg-success1 text-success2">
+					خرید محصول
+				</button>
+			</Link>
 			<div className="relative flex flex-row justify-center items-center gap-1 h-18">
 				<img src="/images/logo.png" className="w-36" alt="" />
 			</div>
