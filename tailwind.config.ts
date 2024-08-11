@@ -11,8 +11,8 @@ const config: Config = {
       colors: {
         back1: "#f5f5f5",
         back2: "#ffffff", // Changed to use hex code for clarity
-        primary: "#0056e0",
-        secondary: "#3e79d6",
+        primary: "#f0542a",
+        secondary: "#fc8162",
         success1: "#e7fff4",
         success2: "#0c7544",
         text1: "#000000",
