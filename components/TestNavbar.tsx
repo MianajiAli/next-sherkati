@@ -4,11 +4,11 @@ export default function Product() {
     return (
         <Popover className="relative ">
             <PopoverButton>محصولات</PopoverButton>
-            <PopoverPanel anchor="bottom" className="flex flex-col bg-slate-200 m-0 focus:outline-none border-0">
-                <a href="/analytics">Analytics</a>
-                <a href="/engagement">Engagement</a>
-                <a href="/security">Security</a>
-                <a href="/integrations">Integrations</a>
+            <PopoverPanel anchor="bottom" className="flex flex-col bg-secondary text-secondary m-0 focus:outline-none border-0">
+                <a href="/analytics" className='py-3 px-5'>Analytics</a>
+                <a href="/engagement" className='py-3 px-5'>Engagement</a>
+                <a href="/security" className='py-3 px-5'>Security</a>
+                <a href="/integrations" className='py-3 px-5'>Integrations</a>
             </PopoverPanel>
         </Popover>
     )
