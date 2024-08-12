@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Product from "./TestNavbar";
 const Navbar = () => {
 	return (
 		<nav
@@ -18,6 +18,9 @@ const Navbar = () => {
 						<Link href="/">
 							<span className="px-3 py-2 rounded cursor-pointer">مقالات</span>
 						</Link>
+					</li>
+					<li>
+						<Product></Product>
 					</li>
 					<li>
 						<Link href="/">

@@ -1,10 +1,10 @@
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 
-export default function Example() {
+export default function Product() {
     return (
-        <Popover className="relative">
-            <PopoverButton>Solutions</PopoverButton>
-            <PopoverPanel anchor="bottom" className="flex flex-col">
+        <Popover className="relative ">
+            <PopoverButton>محصولات</PopoverButton>
+            <PopoverPanel anchor="bottom" className="flex flex-col bg-slate-200 margin: 0px;">
                 <a href="/analytics">Analytics</a>
                 <a href="/engagement">Engagement</a>
                 <a href="/security">Security</a>
