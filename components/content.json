@@ -1,0 +1,13 @@
+{
+    "en": {
+      "title": "Welcome to My Website",
+      "description": "This is a simple multilingual website using Next.js, Tailwind CSS, and TypeScript.",
+      "footer": "© 2024 My Website. All rights reserved."
+    },
+    "fa": {
+      "title": "به وب سایت من خوش آمدید",
+      "description": "این یک وب سایت چند زبانه ساده با استفاده از Next.js، Tailwind CSS و TypeScript است.",
+      "footer": "© ۲۰۲۴ وب سایت من. تمام حقوق محفوظ است."
+    }
+  }
+  
