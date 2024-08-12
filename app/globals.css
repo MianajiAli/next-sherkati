@@ -12,4 +12,12 @@
 }
 body {
 	-webkit-text-size-adjust: 100%; /* or auto or none */
+	button:focus {
+		outline: none; /* Removes outline for all browsers */
+	}
+	
+	button:-moz-focusring {
+		outline: none; /* Specifically targets Firefox */
+	}
+	
 }
