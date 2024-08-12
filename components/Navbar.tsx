@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Product from "./TestNavbar";
+import PopOverNavbar from "./PopOverNavbar";
 
 const Navbar = () => {
 	return (
@@ -23,7 +23,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li>
-						<Product></Product>
+						<PopOverNavbar></PopOverNavbar>
 					</li>
 					<li>
 						<Link href="/">
@@ -39,7 +39,7 @@ const Navbar = () => {
 			</div>
 
 			<button className="py-2 px-6 rounded-md bg-success1 text-success2">
-				Contact Us:  912123-021
+				tel: +98 012 345
 			</button>
 		</nav>
 	);

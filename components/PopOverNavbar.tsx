@@ -3,7 +3,7 @@ import { Popover, PopoverButton, PopoverPanel, Transition } from '@headlessui/re
 export default function Product() {
     return (
         <Popover className="relative ">
-            <PopoverButton>محصولات</PopoverButton>
+            <PopoverButton>Products</PopoverButton>
             <Transition
                 enter="transition duration-100 ease-out"
                 enterFrom="transform scale-95 opacity-0"
