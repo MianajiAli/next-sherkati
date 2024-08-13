@@ -2,75 +2,75 @@ const WhyChooseUs = () => {
     return (
         <div className="bg-gray-50 py-12">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-8">Why Choose Arta Export</h2>
+                <h2 className="text-3xl font-bold text-center mb-8">چرا آرتا اکسپورت را انتخاب کنیم</h2>
                 <p className="text-lg text-gray-700 text-center mb-12">
-                    Discover why Arta Export is the preferred partner for businesses around the world.
+                    کشف کنید که چرا آرتا اکسپورت شریک انتخابی برای کسب‌وکارها در سراسر جهان است.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="bg-white p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/quality-icon.png"
-                            alt="Quality Assurance"
+                            alt="تضمین کیفیت"
                             className="w-16 h-16 mx-auto mb-4"
                         />
-                        <h3 className="text-xl font-semibold mb-2">Unmatched Quality</h3>
+                        <h3 className="text-xl font-semibold mb-2">کیفیت بی‌نظیر</h3>
                         <p className="text-gray-600">
-                            We adhere to the highest standards of quality control, ensuring that every product meets or exceeds international benchmarks.
+                            ما به بالاترین استانداردهای کنترل کیفیت پایبند هستیم و اطمینان می‌دهیم که هر محصول با استانداردهای بین‌المللی مطابقت دارد یا فراتر از آنهاست.
                         </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/global-icon.png"
-                            alt="Global Network"
+                            alt="شبکه جهانی"
                             className="w-16 h-16 mx-auto mb-4"
                         />
-                        <h3 className="text-xl font-semibold mb-2">Global Network</h3>
+                        <h3 className="text-xl font-semibold mb-2">شبکه جهانی</h3>
                         <p className="text-gray-600">
-                            With a presence in over 50 countries, we have the experience and connections to deliver your products wherever they need to go.
+                            با حضوری در بیش از ۵۰ کشور، ما تجربه و ارتباطات لازم برای تحویل محصولات شما به هر جایی که نیاز دارند را داریم.
                         </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/support-icon.png"
-                            alt="Customer Support"
+                            alt="پشتیبانی مشتری"
                             className="w-16 h-16 mx-auto mb-4"
                         />
-                        <h3 className="text-xl font-semibold mb-2">Exceptional Support</h3>
+                        <h3 className="text-xl font-semibold mb-2">پشتیبانی بی‌نظیر</h3>
                         <p className="text-gray-600">
-                            Our dedicated team is available 24/7 to assist with your needs, ensuring a smooth and reliable export process.
+                            تیم متعهد ما به صورت ۲۴/۷ آماده کمک به نیازهای شما است و فرایند صادرات را به طور روان و قابل اعتماد انجام می‌دهد.
                         </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/sustainability-icon.png"
-                            alt="Sustainability"
+                            alt="پایداری"
                             className="w-16 h-16 mx-auto mb-4"
                         />
-                        <h3 className="text-xl font-semibold mb-2">Sustainability</h3>
+                        <h3 className="text-xl font-semibold mb-2">پایداری</h3>
                         <p className="text-gray-600">
-                            We are committed to environmentally-friendly practices, ensuring our operations are sustainable for future generations.
+                            ما متعهد به روش‌های دوستدار محیط‌زیست هستیم و اطمینان می‌دهیم که عملیات ما برای نسل‌های آینده پایدار باشد.
                         </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/value-icon.png"
-                            alt="Competitive Pricing"
+                            alt="قیمت رقابتی"
                             className="w-16 h-16 mx-auto mb-4"
                         />
-                        <h3 className="text-xl font-semibold mb-2">Competitive Pricing</h3>
+                        <h3 className="text-xl font-semibold mb-2">قیمت رقابتی</h3>
                         <p className="text-gray-600">
-                            Our extensive network and efficient operations allow us to offer competitive pricing without compromising on quality.
+                            شبکه گسترده و عملیات کارآمد ما به ما اجازه می‌دهد که قیمت‌های رقابتی را بدون کاهش کیفیت ارائه دهیم.
                         </p>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/experience-icon.png"
-                            alt="Experience"
+                            alt="تجربه"
                             className="w-16 h-16 mx-auto mb-4"
                         />
-                        <h3 className="text-xl font-semibold mb-2">Decades of Experience</h3>
+                        <h3 className="text-xl font-semibold mb-2">دهه‌ها تجربه</h3>
                         <p className="text-gray-600">
-                            With years of expertise in the export industry, we have the knowledge and skills to navigate complex international markets.
+                            با سال‌ها تجربه در صنعت صادرات، ما دانش و مهارت‌های لازم برای پیمایش در بازارهای بین‌المللی پیچیده را داریم.
                         </p>
                     </div>
                 </div>
