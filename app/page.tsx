@@ -1,17 +1,18 @@
-import Aboutus from "@components/Aboutus";
-import Contact from "@components/Contact";
-import GlobalReach from "@components/GlobalReach";
-import Hero1 from "@components/Hero1";
-import Products from "@components/Products";
-import WhyChooseUs from "@components/WhyChooseUs";
+import AboutUs from "@components/fa/AboutUs";
+import Contact from "@components/fa/Contact";
+import GlobalReach from "@components/fa/GlobalReach";
+import Hero from "@components/fa/Hero";
+import Products from "@components/fa/Products";
+import WhyChooseUs from "@components/fa/WhyChooseUs";
 
 
 
 export default function Page() {
 	return (
 		<div>
-			<Hero1></Hero1>
-			<Aboutus></Aboutus>
+			فارسی
+			<Hero></Hero>
+			<AboutUs></AboutUs>
 			<Products></Products>
 			<GlobalReach></GlobalReach>
 			<WhyChooseUs></WhyChooseUs>

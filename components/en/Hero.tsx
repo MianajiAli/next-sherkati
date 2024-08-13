@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Hero1 = () => {
+const Hero = () => {
 	return (
 		<div className="w-full min-h-52 h-[30vh] relative">
 			<div className=" z-1 absolute bg-black w-full h-full"></div>
@@ -22,4 +22,4 @@ const Hero1 = () => {
 	);
 };
 
-export default Hero1;
+export default Hero;

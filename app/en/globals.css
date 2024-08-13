@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "PeydaWeb";
+	src: url("/fonts/PeydaWeb.woff2") format("woff2"),
+		url("/fonts/PeydaWeb.woff") format("woff"),
+		url("/fonts/PeydaWeb.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	-webkit-text-size-adjust: 100%; /* or auto or none */
+	button:focus {
+		outline: none; /* Removes outline for all browsers */
+	}
+	
+	button:-moz-focusring {
+		outline: none; /* Specifically targets Firefox */
+	}
+	
+}

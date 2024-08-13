@@ -1,4 +1,4 @@
-const Aboutus = () => {
+const AboutUs = () => {
 	return (
 		<div className="bg-white py-12">
 			<div className="container mx-auto px-4">
@@ -33,4 +33,4 @@ const Aboutus = () => {
 	);
 };
 
-export default Aboutus;
+export default AboutUs;
