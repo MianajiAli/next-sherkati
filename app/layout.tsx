@@ -23,14 +23,14 @@ export default function RootLayout({
 				<div className="font-main">
 
 					<Navbar />
-					<div className="w-full  bg-back1 text-primary flex  ">
+					<div className="w-full  bg-back1 text-primary flex flex-row justify-center ">
 
-						<div className="w-full lg:w-10/12 pt-10 px-5 md:px-[5%] ">
+						<div className="w-full lg:w-12/12 ">
 							{children}
 						</div>
-						<div className="hidden lg:block w-2/12 h-[90vh] px-3 pt-10 ">
+						{/* <div className="hidden lg:block w-2/12 h-[90vh] px-3 pt-10 ">
 							<SideBar />
-						</div>
+						</div> */}
 
 					</div>
 					<Footer />

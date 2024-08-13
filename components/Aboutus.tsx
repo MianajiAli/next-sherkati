@@ -1,32 +1,34 @@
 const Aboutus = () => {
 	return (
-		<div
-			id="about-us"
-			dir="rtl"
-			className="text-text2 pt-10 flex flex-col gap-3"
-		>
-			<span className="text-3xl text-text1 font-bold">درباره ما</span>
-			<p>
-				به [نام شرکت ] خوش آمدید. ما با سال‌ها تجربه در زمینه صادرات، به
-				کسب‌وکارها کمک می‌کنیم تا محصولات خود را به صورت سریع و مطمئن به
-				بازارهای جهانی ارسال کنند. خدمات ما شامل مدیریت لجستیک، ترخیص گمرک، و
-				تأمین محصولات است.
-			</p>
-			<p>
-				تیم ما با بهره‌گیری از تخصص و شبکه جهانی گسترده، به شما اطمینان می‌دهد
-				که کالاهای شما با کیفیت و قیمت مناسب به مقصد خواهند رسید. هدف ما رضایت
-				کامل شماست.
-			</p>
-			<span className="text-3xl text-text1 font-bold pt-3">چرا آرتا اکسپورت؟</span>
-			<ul>
-				<li>✔ تجربه و تخصص در صادرات</li>
-				<li>✔ پشتیبانی ۲۴/۷</li>
-				<li>✔ قیمت‌های رقابتی</li>
-				<li>✔ شبکه گسترده از شرکا</li>
-			</ul>
-			<p>
-				با [نام شرکت ] تماس بگیرید و از خدمات برتر صادراتی ما بهره‌مند شوید.
-			</p>
+		<div className="bg-white py-12">
+			<div className="container mx-auto px-4">
+				<h2 className="text-3xl font-bold text-center mb-8">About Us</h2>
+				<div className="flex flex-col lg:flex-row items-center">
+					<div className="lg:w-1/2 mb-8 lg:mb-0">
+						<img
+							src="/images/company-overview.jpg"
+							alt="Company Overview"
+							className="w-full h-auto rounded-lg shadow-md object-contain"
+						/>
+					</div>
+					<div className="lg:w-1/2 lg:pl-12">
+						<p className="text-lg text-gray-700 mb-6">
+							Welcome to Arta Export, a global leader in exporting high-quality products to markets
+							worldwide. With decades of experience, we are committed to providing exceptional services and
+							ensuring the success of our partners and clients.
+						</p>
+						<p className="text-lg text-gray-700 mb-6">
+							Our mission is to bridge markets and connect cultures by delivering premium products with
+							unmatched reliability and speed. We pride ourselves on our integrity, professionalism, and
+							dedication to exceeding expectations.
+						</p>
+						<p className="text-lg text-gray-700">
+							Join us on our journey of growth and success as we continue to expand our reach and impact
+							across the globe.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };

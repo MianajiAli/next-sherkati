@@ -2,31 +2,21 @@ import Image from "next/image";
 
 const Hero1 = () => {
 	return (
-		<div className="w-full min-h-56 rounded-3xl p-5 bg-back2 flex flex-col md:flex-row md:justify-between gap-5">
-			<div className="bg-secondary rounded-xl text-back2 md:h-[14rem] aspect-video relative">
-				<Image
-					src="/images/cargo.webp"
-					fill
-					alt="Cargo Image"
-					priority
-					sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-					className="rounded-xl"
-				/>
-			</div>
-
-
-			<div
-				className="w-fit flex flex-col justify-center items-start pt-5 md:pt-0"
-				dir="rtl"
-			>
-				<span className="text-3xl font-bold">آرتا اکسپورت</span>
-				<p className=" text-md md:text-lg pt-2 ">
-					شرکت صادراتی ما با افتخار محصولات با کیفیت بالا را به سراسر جهان ارائه
-					می‌دهد. ما به تعهدات خود در زمینه تحویل به موقع و خدمات مشتری عالی
-					پایبندیم. هدف ما ایجاد روابط بلندمدت با شرکای تجاری در سراسر جهان است
-					و تلاش می‌کنیم تا نیازهای آن‌ها را با بهترین محصولات و خدمات ممکن
-					برآورده کنیم. با ما، به بازارهای جهانی.
-				</p>
+		<div className="w-full min-h-52 h-[30vh] relative">
+			<div className=" z-1 absolute bg-black w-full h-full"></div>
+			<img className="w-full h-full object-cover opacity-30  z-2 absolute" src="/images/herobg.jpg" alt="Hero Background" />
+			<div className="z-3 absolute w-full h-full flex flex-col justify-center items-center">
+				<span className="text-4xl text-back1 font-bold mb-6 text-center">
+					Transforming Global Trade with Artisanal Excellence
+				</span>
+				<div className="flex space-x-4 opacity-90">
+					<button className="bg-primary text-back1 py-2 px-4 rounded-lg hover:bg-primary-dark transition">
+						Discover Our Products
+					</button>
+					<button className="bg-secondary text-back1 py-2 px-4 rounded-lg hover:bg-secondary-dark transition">
+						Request a Quote
+					</button>
+				</div>
 			</div>
 		</div>
 	);
