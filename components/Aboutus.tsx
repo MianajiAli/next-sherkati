@@ -2,30 +2,30 @@ const Aboutus = () => {
 	return (
 		<div
 			id="about-us"
-			dir="rtl"
+			dir="ltr"
 			className="text-text2 pt-10 flex flex-col gap-3"
 		>
-			<span className="text-3xl text-text1 font-bold">درباره ما</span>
+			<span className="text-3xl text-text1 font-bold">About us</span>
 			<p>
-				به [نام شرکت ] خوش آمدید. ما با سال‌ها تجربه در زمینه صادرات، به
-				کسب‌وکارها کمک می‌کنیم تا محصولات خود را به صورت سریع و مطمئن به
-				بازارهای جهانی ارسال کنند. خدمات ما شامل مدیریت لجستیک، ترخیص گمرک، و
-				تأمین محصولات است.
+			Welcome to Arta export. With years of experience in the field of export, we
+				We help businesses to deliver their products quickly and securely
+				Send to global markets. Our services include logistics management, customs clearance, and
+				Supplying products.
 			</p>
 			<p>
-				تیم ما با بهره‌گیری از تخصص و شبکه جهانی گسترده، به شما اطمینان می‌دهد
-				که کالاهای شما با کیفیت و قیمت مناسب به مقصد خواهند رسید. هدف ما رضایت
-				کامل شماست.
+			Our team assures you by taking advantage of the expertise and wide global network
+				that your goods will reach their destination with quality and reasonable price. Our goal is satisfaction
+				It is perfect for you.
 			</p>
-			<span className="text-3xl text-text1 font-bold pt-3">چرا آرتا اکسپورت؟</span>
+			<span className="text-3xl text-text1 font-bold pt-3">Why Arta Export?</span>
 			<ul>
-				<li>✔ تجربه و تخصص در صادرات</li>
-				<li>✔ پشتیبانی ۲۴/۷</li>
-				<li>✔ قیمت‌های رقابتی</li>
-				<li>✔ شبکه گسترده از شرکا</li>
+			<li>✔ Experience and expertise in export</li>
+				<li>✔ 24/7 support</li>
+				<li>✔ Competitive prices</li>
+				<li>✔ Wide network of partners</li>
 			</ul>
 			<p>
-				با [نام شرکت ] تماس بگیرید و از خدمات برتر صادراتی ما بهره‌مند شوید.
+			Contact Arta export and benefit from our superior export services.
 			</p>
 		</div>
 	);

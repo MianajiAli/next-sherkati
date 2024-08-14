@@ -2,8 +2,10 @@ import Image from "next/image";
 
 const Hero1 = () => {
 	return (
-		<div className="w-full min-h-56 rounded-3xl p-5 bg-back2 flex flex-col md:flex-row md:justify-between gap-5">
-			<div className="bg-secondary rounded-xl text-back2 md:h-[14rem] aspect-video relative">
+		<div className="w-full min-h-56 rounded-3xl p-5 bg-back2 flex flex-col md:flex-row-reverse md:justify-between gap-5">
+			<div className="bg-secondary rounded-xl text-back2 md:h-[14rem] aspect-video relative"
+			
+			>
 				<Image
 					src="/images/cargo.webp"
 					fill
@@ -17,15 +19,15 @@ const Hero1 = () => {
 
 			<div
 				className="w-fit flex flex-col justify-center items-start pt-5 md:pt-0"
-				dir="rtl"
+				dir="ltr"
 			>
-				<span className="text-3xl font-bold">آرتا اکسپورت</span>
+				<span className="text-3xl font-bold">Arta export </span>
 				<p className=" text-md md:text-lg pt-2 ">
-					شرکت صادراتی ما با افتخار محصولات با کیفیت بالا را به سراسر جهان ارائه
-					می‌دهد. ما به تعهدات خود در زمینه تحویل به موقع و خدمات مشتری عالی
-					پایبندیم. هدف ما ایجاد روابط بلندمدت با شرکای تجاری در سراسر جهان است
-					و تلاش می‌کنیم تا نیازهای آن‌ها را با بهترین محصولات و خدمات ممکن
-					برآورده کنیم. با ما، به بازارهای جهانی.
+				Our export company is proud to offer high quality products to all over the world
+					gives We deliver on our commitments to on-time delivery and excellent customer service
+					We adhere to We aim to build long-term relationships with business partners around the world
+					And we try to meet their needs with the best possible products and services
+					fulfill With us, to global markets.
 				</p>
 			</div>
 		</div>
