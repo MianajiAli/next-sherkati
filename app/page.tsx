@@ -11,7 +11,7 @@ import ImageSlider from "@components/ImageSlider";
 export default function Page() {
 	return (
 		<div>
-			فارسی
+			
 			<Hero></Hero>
 			<AboutUs></AboutUs>
 			<Products></Products>

@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
                     Discover why Arta Export is the preferred partner for businesses around the world.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div className=" p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/quality-icon.png"
                             alt="Quality Assurance"
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
                             We adhere to the highest standards of quality control, ensuring that every product meets or exceeds international benchmarks.
                         </p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div className=" p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/global-icon.png"
                             alt="Global Network"
@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
                             With a presence in over 50 countries, we have the experience and connections to deliver your products wherever they need to go.
                         </p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div className=" p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/support-icon.png"
                             alt="Customer Support"
@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
                             Our dedicated team is available 24/7 to assist with your needs, ensuring a smooth and reliable export process.
                         </p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div className=" p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/sustainability-icon.png"
                             alt="Sustainability"
@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
                             We are committed to environmentally-friendly practices, ensuring our operations are sustainable for future generations.
                         </p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div className=" p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/value-icon.png"
                             alt="Competitive Pricing"
@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
                             Our extensive network and efficient operations allow us to offer competitive pricing without compromising on quality.
                         </p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div className=" p-6 rounded-lg shadow-md text-center">
                         <img
                             src="/images/experience-icon.png"
                             alt="Experience"
