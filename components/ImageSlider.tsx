@@ -70,33 +70,37 @@ export default function ImageSlider(): JSX.Element {
     };
 
     return (
-        <div className="relative w-full mx-auto mt-4">
+        <div className="relative w-full mx-auto mt-4 w-10/12 h-[320px]">
             <div
-                className="relative h-[460px] mx-12 group hover:-translate-y-2"
+                className="absolute h-[300px] mx-auto group w-full z-1  "
                 onMouseOver={handleMouseOver}
                 onMouseLeave={handleMouseLeave}
             >
+            
                 <Image
                     src={images[currentIndex].src}
                     alt={`Slider Image ${currentIndex + 1}`}
                     layout="fill"
                     objectFit="cover"
-                    className="rounded-xl transition-all duration-500 ease-in-out cursor-pointer"
+                    className="rounded-xl transition-all d ease-in-out cursor-pointer "
                 />
             </div>
+            <div className="z-2 w-full flex justify-between absolute items-center  h-[300px] z-2">
+            
             <button
-                className="absolute left-0 top-1/2 transform h-[50px] rounded-xl  mx-1 -mt-[10px] -translate-y-1/2  text-white p-2 group"
+                className="  h-[60px] rounded-xl  text-white p-2 group"
                 onClick={prevSlide}
             >
                 <ChevronLeft className="text-gray-400 group-hover:text-white" />
             </button>
             <button
-                className="absolute right-0 top-1/2 transform h-[50px] rounded-xl  mx-1 -mt-[10px] -translate-y-1/2  text-white p-2 group"
+                className="  h-[60px] rounded-xl    text-white p-2 group"
                 onClick={nextSlide}
             >
                 <ChevronRight className="text-gray-400 group-hover:text-white" />
             </button>
-            <div className="flex justify-center mt-4">
+            </div>
+            <div className="flex justify-center items-center mt-4 ">
                 {images.map((_, index) => (
                     <div
                         key={index}
@@ -107,6 +111,7 @@ export default function ImageSlider(): JSX.Element {
                     ></div>
                 ))}
             </div>
+        
         </div>
     );
 }
